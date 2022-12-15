@@ -109,17 +109,17 @@ nav {
     align-items: center;
 }
 
-.header-nav:hover {
+.header-item:hover {
     color: var(--navy-footer);
     text-decoration: none;
 
 } 
-.header-nav:focus {
+.header-item:focus {
     color: var(--navy-footer);
     text-decoration: none;
 
 } 
-.header-nav:active {
+.header-item:active {
     color: var(--blue-accent);
     text-decoration: none;
 
@@ -137,10 +137,10 @@ nav {
     margin-left: auto;
     
 }
-.contacts:hover, .contacts:focus {
-    color: var(--navy-footer);
+.contacts-item:hover, .contacts-item:focus {
+    color: var(--slate-body-text);
 }
-.contacts:active {
+.contacts-item:active {
     color: var(--blue-accent);
 }
 .contacts .contacts-item:not(:last-child) {
@@ -188,9 +188,9 @@ nav {
     margin-right: 24px;
 
 }
-/* .button-item:last-child {
+.button-item:last-child {
     margin-right: 0;
-} */
+}
 .button-accent {
     background-color: var(--blue-accent);
     color: var(--white);
@@ -226,10 +226,15 @@ nav {
     /* margin: 12px 24px; */
 
 }
-.button-accent:hover, .button-accent:focus {
+/* .button-item:hover, .button-item:focus {
+    background-color: var(--blue-accent);
+    color: var(--white);
+} */
+.button-accent:hover, .button-accent:focus, .button-usual:hover, .button-usual:focus  {
     background-color: var(--blue-accent);
     color: var(--white);
 }
+
 /* .button-usual:hover, .button-usual:focus */
 .button-header {
     border-radius: 4px;

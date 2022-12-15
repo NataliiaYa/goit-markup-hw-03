@@ -98,8 +98,8 @@
     font-weight: 600;
     font-size: 56px;
     line-height: 1;
-
 }
+
 .button-accent {
     background-color: var(--blue-accent);
     color: var(--white);
