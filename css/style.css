@@ -108,21 +108,28 @@ nav {
     margin-right: 40px;
     align-items: center;
 }
-
-.header-item:hover {
+.header-link {
     color: var(--navy-footer);
     text-decoration: none;
 
 } 
-.header-item:focus {
-    color: var(--navy-footer);
+.header-link:hover {
+    color: var(--blue-accent);
     text-decoration: none;
 
 } 
 .header-item:active {
     color: var(--blue-accent);
     text-decoration: none;
+}
+.header-link:focus {
+    color: var(--blue-accent);
+    text-decoration: none;
 
+} 
+.header-item:active {
+    color: var(--navy-footer);
+    text-decoration: none;
 }
 /* .list {
     text-decoration: none;
